@@ -2,13 +2,13 @@
 This project presents a deep learning approach to Hindi image captioning, an innovative intersection of natural language processing and computer vision.
 Captioning images in Hindi is the process of using words to describe a picture in Hindi. It is at the crossroads between natural language processing and computer vision, demanding identification of objects in an image as well as with generation of properly formed sentences that are contextually correct. Despite marked strides in English image captioning, Hindi has had very limited research. This knowledge gap is a hindrance to building inclusive technological solutions for non-English speaking populations. The paper focuses on narrowing the above discussed gap by developing deep learning based framework for generating Hindi captions for images. We present state-of-the-art methods, evaluate their performance and discuss nuances and challenges specific to Hindi. By concentrating on Hindi we hope to contribute towards making AI more democratic by ensuring that developments in image captioning also benefit more than just a few people. Further, this paper has implications beyond Hindi; it can be used as a guide for similar studies involving other less documented languages in future studies.
 
-**Methodology-
-**
+**Methodology-**
+
 **Dataset Preparation**
 
 This procedure of preparing data sets is essential for accomplishing Hindi image captioning mechanism. We have used the Flicker 8K dataset that contains 8,000 images and their corresponding English captions. We translate the captions into Hindi manually to form the dataset which should be accurate as well as contextually relevant. Each image in the dataset is processed using BLIP processor while extracting high-dimensional features necessary for generating captions.
 
-**Image Feature Extractio**
+**Image Feature Extraction**
 
 Features are extracted from images using BLIP Processor. Each image is loaded, converted from any format to RGB and preprocessed to fit input requirements of the BLIP model. This processed image then passes through the BLIP model, which gives a high-dimensional feature vector representing key characteristics of an image. The feature vectors are kept in a pickle file so that they can be loaded with ease during training of models.
 
